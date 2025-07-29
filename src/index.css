@@ -1,13 +1,106 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500&display=swap");
+
+body,
+html {
+  height: 100%;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "IBM Plex Mono", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.page-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: antiquewhite;
+}
+
+.carousel-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 700px;
+  padding: 0 60px;
+}
+
+.card {
+  width: 450px;
+  height: 600px;
+  max-width: 90vw;
+  max-height: 90vh;
+  border: 4px solid #333;
+  padding: 20px;
+  background-color: #f3e8e8;
+  text-align: center;
+  z-index: 1;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+.plant-container img {
+  width: 50%;
+  max-width: 300px;
+  height: 164px;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+}
+
+.plant-container h1 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.plant-container h2 {
+  font-size: 18px;
+  color: darkgreen;
+}
+
+.plant-container p {
+  font-size: 14px;
+}
+.buttons {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+  background-color: lightgray;
+  padding: 10px;
+}
+.plant-container .buttons span a {
+  color: darkgreen;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.plant-container .buttons span a:hover {
+  color: rgb(101, 211, 101);
+  text-decoration: none;
+  cursor: pointer;
+}
+.page-wrapper .carousel-container .nav-button-left {
+  background: antiquewhite;
+  color: darkgreen;
+  font-size: 30px;
+  font-weight: bolder;
+  position: absolute;
+  left: -60px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  cursor: pointer;
+  z-index: 2;
+}
+.page-wrapper .carousel-container .nav-button-right {
+  background: antiquewhite;
+  color: darkgreen;
+  font-size: 30px;
+  font-weight: bolder;
+  position: absolute;
+  right: -60px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  cursor: pointer;
+  z-index: 2;
 }
