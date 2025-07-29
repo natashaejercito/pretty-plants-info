@@ -19,7 +19,8 @@ You may also see any lint errors in the console.
 # Technologies
 ⚙️Built with:
 <ul>
-  <li><mark>HTML</mark>: Markup language for creating the structure.</li>
+  <li><mark>React</mark>: A library for web and native user interfaces</li>
+  <li><mark>JavaScript</mark>: Scripting language to create dynamically updating content.</li>
   <li><mark>CSS</mark>: For styling and animations.</li>
 </ul>
 
