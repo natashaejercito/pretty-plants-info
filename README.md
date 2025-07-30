@@ -7,12 +7,12 @@ interactive things the website has. This was built using React, primarily with J
 # 🏃‍➡️ Running the Project
 <ol>
   <li>Clone the repository to your local machine</li>
-  <li>Run `npm install` in the project directory to install the required dependencies.</li>
-  <li>Run `npm start` to get the project started.</li>
-  <li>Open [http://localhost:3000](http://localhost:3000) (or the address shown in your console) to view it in your browser.</li>
+  <li>Run npm install in the project directory to install the required dependencies.</li>
+  <li>Run npm start to get the project started.</li>
+  <li>Open http://localhost:3000 (or the address shown in your console) to view it in your browser.</li>
 </ol>
 
-# 💻 Technologies
+# 💻 Framework and Technologies
 ⚙️Built with:
 <ul>
   <li><b>React</b>: A library for web and native user interfaces</li>
@@ -21,6 +21,6 @@ interactive things the website has. This was built using React, primarily with J
 </ul>
 
 # ✒️ App
-- Pixels were made by me using `8bit Painter`.
+- Pixels were made by me using ` 8bit Painter `.
 
 
