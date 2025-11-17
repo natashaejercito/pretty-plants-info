@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 
-const plantData = [
+let plantData = [
   {
     plantName: "Jade",
     plantType: "Succulent",
@@ -71,19 +71,19 @@ function PlantCard({ plant }) {
       <p>{plant.careInstructions}</p>
       <div className="buttons">
         <span>
-          <a href="#" target="_blank" className="links">
+          <button type="button" className="links">
             Learn More
-          </a>
+          </button>
         </span>
         <span>
-          <a href="#" target="_blank" className="links">
+          <button type="button" className="links">
             How to Care
-          </a>
+          </button>
         </span>
         <span>
-          <a href="#" target="_blank" className="links">
+          <button type="button" className="links">
             Where to Buy
-          </a>
+          </button>
         </span>
       </div>
     </div>
