@@ -21,6 +21,6 @@ interactive things the website has. This was built using React, primarily with J
 </ul>
 
 # ✒️ App
-- Pixels were made by me using ` 8bit Painter `.
+- Pixels were made by me using ` 8bit Painter `
 
 
